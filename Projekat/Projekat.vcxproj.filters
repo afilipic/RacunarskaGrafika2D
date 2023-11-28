@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Shader Files">
+      <UniqueIdentifier>{db5da551-6233-4918-94aa-683fa3d2291a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="src\res\potpis.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="src\res\jabuka.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\vert\basic.vert">
+      <Filter>Source Files\Shader Files</Filter>
+    </None>
+    <None Include="src\frag\basic.frag">
+      <Filter>Source Files\Shader Files</Filter>
+    </None>
+    <None Include="src\vert\apple.vert" />
+    <None Include="src\frag\apple.frag" />
+    <None Include="src\frag\valley.frag" />
+    <None Include="src\vert\valley.vert" />
+    <None Include="src\vert\forest.vert" />
+    <None Include="src\frag\forest.frag" />
+    <None Include="src\frag\tree.frag" />
+    <None Include="src\frag\crown.frag" />
+    <None Include="src\frag\moon.frag" />
+    <None Include="src\frag\signature.frag" />
+    <None Include="src\frag\sun.frag" />
+    <None Include="src\vert\sun.vert" />
+    <None Include="src\frag\cloud.frag" />
+  </ItemGroup>
+</Project>

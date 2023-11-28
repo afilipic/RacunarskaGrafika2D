@@ -1,0 +1,3 @@
+C:\Users\ANJA\Desktop\Grafika\Projekat\x64\Debug\Projekat.exe
+C:\Users\Asus\source\repos\Projekat\x64\Debug\Projekat.exe
+C:\Users\Asus\Desktop\RacunarskaGrafika2D\Projekat\x64\Debug\Projekat.exe
